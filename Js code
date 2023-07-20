@@ -1,0 +1,7 @@
+// let a=document.getElementsByTagName("ul")[0]
+// let li=document.createElement("li")
+// li.innerHTML='<li class="list-group-item">Item 5</li>';
+// a.appendchild(li);
+
+let a=document.getElementById("items")
+a.insertAdjacentHTML('before end','<li class="new-item">Item 5</li>')
